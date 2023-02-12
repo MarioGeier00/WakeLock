@@ -59,8 +59,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          # Upload dist artifact to GitHub pages
-          path: '/home/runner/work/WakeLock/WakeLock/dist'
+          # Upload artifact to GitHub pages
+          path: './'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
